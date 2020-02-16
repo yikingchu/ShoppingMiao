@@ -1,11 +1,11 @@
 # ShoppingMiao
-购物喵秒杀、抢购、低价购等内容。用于京东、淘宝、天猫、小米有品、苏宁易购、考拉海购、唯品会等平台的秒杀、抢购、低价购等。
-* 更新支持京东
-* 更新支持苏宁、考拉
-* 更新支持唯品会
+购物喵秒杀、抢购、低价购等内容。用于京东、淘宝、天猫、小米有品、苏宁易购、考拉海购、唯品会等平台的秒杀、抢购、低价购等。<br>
+* 更新支持京东<br>
+* 更新支持苏宁、考拉<br>
+* 更新支持唯品会<br>
 ![wechat](https://raw.githubusercontent.com/yikingchu/ShoppingMiao/master/me.jpg)
 Author:Reg_coco <br>
-Wechat:yikunzhu
+Wechat:yikunzhu<br>
 
 ### CENTOS:
 yum install -y  python36 <br>
