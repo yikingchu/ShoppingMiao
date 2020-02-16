@@ -77,15 +77,15 @@ def buy(buy_time,mall):
     #原来的方法
     while True:
         #现在时间大于预设时间则开售抢购
-        if datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')>buy_time:
+        if datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')>=buy_time:
             try:
                 #找到“立即购买”，点击
                 if driver.find_element_by_css_selector(btn_buy):
                     driver.find_element_by_css_selector(btn_buy).click()
                     break
-                time.sleep(0.1)
+                #time.sleep(0.1)
             except:
-                time.sleep(0.3)
+                pass
 
     # while True:
     # #现在时间大于预设时间则开售抢购
@@ -107,16 +107,18 @@ def buy(buy_time,mall):
                 #下单成功，跳转至支付页面
                 print("购买成功")
                 break
+            driver.refresh()
         except:
-            time.sleep(0.5)
+            driver.refresh()
+            time.sleep(0.01)
 
 
 if __name__ == "__main__":
     # url = input("请输入商品链接:")
     # mall = input("请选择商城（淘宝 1  天猫 2  小米有品 3  苏宁易购 4 输入数字即可）： ")
     # bt = input("请输入开售时间【2019-02-15（空格）12:55:50】")
-    url = "https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.1.4e8f2eb4Q7jjOm&id=586049035622&skuId=4139397938830&areaId=522300&user_id=446338500&cat_id=2&is_b=1&rn=9e28ff80be9305bff58e38292a7fc1ec"
+    url = "https://detail.tmall.com/item.htm?id=536807026434&pid=mm_25282911_3455987_64923600426"
     mall = "2"
-    bt = "2020-02-16 15:34:00"
+    bt = "2020-02-16 17:59:55"
     login(url, mall)
     buy(bt, mall)
