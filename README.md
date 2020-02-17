@@ -35,4 +35,5 @@ pip --default-timeout=100 install selenium #国内镜像：pip install --index h
 
 
 淘宝、天猫、小米有品、苏宁易购、考拉海购平台运行：python shoppingmiao.py <br>
-京东平台：python shoppingmiao_jd.py
+京东平台：python shoppingmiao_jd.py <br>
+唯品会平台：python shoppingmiao_vip.py
