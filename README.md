@@ -5,7 +5,7 @@
 * 更新支持京东<br>
 * 更新支持苏宁、考拉<br>
 * 更新支持唯品会<br>
-![wechat](https://raw.githubusercontent.com/yikingchu/ShoppingMiao/master/me.jpg) <br>
+![wechat](https://www.qxn110.com/wp-content/uploads/2020/02/me.jpg) <br>
 Author:Reg_coco <br>
 Wechat:yikunzhu<br>
 
