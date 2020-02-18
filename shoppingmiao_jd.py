@@ -3,7 +3,7 @@
 # Author:Reg_coco
 # www.qxn110.com
 # Wechat: yikunzhu
-# 京东专用
+# 京
 from selenium import webdriver
 import datetime
 import time
