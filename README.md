@@ -7,8 +7,7 @@
 * 更新<br>
 ![wechat](https://www.qxn110.com/wp-content/uploads/2020/02/me.jpg) <br>
 Author:Reg_coco <br>
-Wechat:yikunzhu<br>
-![wechat](https://raw.githubusercontent.com/yikingchu/ShoppingMiao/master/qun.jpg) <br>
+ 
 ### CENTOS:
 yum install -y  python36 <br>
 yum install -y python36-setuptools <br>
